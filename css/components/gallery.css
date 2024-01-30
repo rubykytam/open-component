@@ -1,0 +1,18 @@
+.gallery {
+  overflow: hidden;
+  height: 20%;
+  justify-content: start;
+  background: #cccccc;
+  display: flex;
+  align-items: normal;
+  margin: 20px;
+}
+
+.gallery img {
+  width: 33%;
+  object-fit: cover;
+  margin-top: 0;
+  margin-bottom: 0px;
+  margin-right: 5px;
+  margin-left: 0px;
+}

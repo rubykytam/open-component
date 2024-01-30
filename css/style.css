@@ -1,0 +1,34 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+@import url("components/card.css");
+@import url("components/banner.css");
+@import url("components/gallery.css");
+@import url("components/btn.css");
+/* Components */
+/* @import url("components/name_of_component.css"); */
+
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  align-items: center;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-image: url(../images/orange_banner.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 80%;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 5px ;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  align-items: normal;
+}
